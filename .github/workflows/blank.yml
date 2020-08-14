@@ -25,5 +25,5 @@ jobs:
         
     - name: ng test
       run: |
-        npm install
+        npm ci
         npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
