@@ -24,6 +24,6 @@ jobs:
         node-version: 12
         
     - name: ng test
-    - run: |
+      run: |
         npm ci
         ng test
