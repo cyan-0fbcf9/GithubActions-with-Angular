@@ -27,6 +27,6 @@ describe('UserService', () => {
       name: 'Satou',
       age: 18
     };
-    expect(service.getName(user)).toBe(18);
+    expect(service.getAge(user)).toBe(18);
   });
 });
