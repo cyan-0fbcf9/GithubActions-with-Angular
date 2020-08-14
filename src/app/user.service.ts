@@ -9,4 +9,8 @@ export class UserService {
   getName(user: object) {
     return user['name'];
   }
+
+  getAge(user: object) {
+    return user['age'];
+  }
 }

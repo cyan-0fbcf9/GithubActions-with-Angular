@@ -21,4 +21,12 @@ describe('UserService', () => {
     };
     expect(service.getName(user)).toBe('Satou');
   });
+
+  it('ユーザの年齢が返ってくるかテスト', () => {
+    const user = {
+      name: 'Satou',
+      age: 18
+    };
+    expect(service.getName(user)).toBe(18);
+  });
 });
